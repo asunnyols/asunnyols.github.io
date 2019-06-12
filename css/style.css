@@ -1,0 +1,150 @@
+body{
+    background-color:gray;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    -webkit-font-feature-settings: "palt" 1;
+            font-feature-settings: "palt" 1;
+}
+
+
+.video_selector{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height:100%;
+    z-index:-999;
+
+}
+
+div{
+    font-weight: 900;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top:350px;
+
+}
+@keyframes top-name {
+    0% {opacity:0;}
+    100%  {opacity:0.9;}
+}
+
+
+#topname
+{
+    animation: top-name 18s;
+    font-weight: 200px;
+    font-size:35px;
+}
+
+#name
+{
+    font-weight: 200px;
+    font-size:8px;
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  
+  .l-header {
+    position: relative;
+  }
+  .l-header .l-hambuger .hamburger__triger {
+    position: fixed;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 20px;
+    margin-top: -10px;
+    z-index: 10;
+  }
+  .l-header .l-hambuger .hamburger__triger .line.line__top,
+  .l-header .l-hambuger .hamburger__triger .line.line__center,
+  .l-header .l-hambuger .hamburger__triger .line.line__bottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: "";
+    display: block;
+  }
+  .l-header .l-hambuger .hamburger__triger .line__top {
+    top: 0;
+    left: 0;
+  }
+  .l-header .l-hambuger .hamburger__triger .line__center {
+    top: 10px;
+    left: 0;
+  }
+  .l-header .l-hambuger .hamburger__triger .line__bottom {
+    top: 20px;
+    left: 0;
+  }
+  .l-header .l-hambuger .hambuger__body {
+    position: relative;
+    background: #282828;
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item {
+    width: 100%;
+    height: 100vh;
+    display: table;
+    border-left: 1px solid #1d1d1d;
+    padding-left: 2%;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item:nth-child(1) {
+    border-left: 0;
+    margin-left: 45px;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item__inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item__inner .number {
+    display: block;
+    position: relative;
+    color: #e1002a;
+    font-size: 8px;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item__inner .number::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 1px;
+    content: "";
+    background: #e1002a;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item__inner .en {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+  }
+  .l-header .l-hambuger .hambuger__body .menu-list .item__inner .link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
